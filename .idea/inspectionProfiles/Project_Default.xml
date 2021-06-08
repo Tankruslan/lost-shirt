@@ -1,0 +1,93 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="1" class="java.lang.String" itemvalue="aiogram" />
+            <item index="2" class="java.lang.String" itemvalue="pytz" />
+            <item index="3" class="java.lang.String" itemvalue="decouple" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="server.crm.models.Movie.objects" />
+          <option value="server.crm.models.Drive.objects" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="server.crm.models.Movie.DoesNotExist" />
+          <option value="server.crm.models.TVShow.objects" />
+          <option value="server.crm.models.Season.objects" />
+          <option value="server.crm.models.Episode.objects" />
+          <option value="server.crm.models.Error.objects" />
+          <option value="server.crm.models.FembedDomain.objects" />
+          <option value="server.crm.models.HLSDomain.objects" />
+          <option value="server.crm.models.Season.DoesNotExist" />
+          <option value="server.crm.models.TVShow.DoesNotExist" />
+          <option value="server.crm.models.TVShow.DoesNotExists" />
+          <option value="server.crm.models.Movie.DoesNotExists" />
+          <option value="server.movies.models.Movie.objects" />
+          <option value="server.hls_domains.models.HLSDomain.objects" />
+          <option value="server.fembed_domains.models.FembedDomain.objects" />
+          <option value="server.movies.views.hls_domains" />
+          <option value="server.tv_shows.models.TVShow.objects" />
+          <option value="server.tv_shows.models.Season.objects" />
+          <option value="server.tv_shows.models.Episode.objects" />
+          <option value="server.fembed.models.FembedAccount.objects" />
+          <option value="server.exceptions.models.Error.objects" />
+          <option value="requests.packages.urllib3" />
+          <option value="django_celery_beat.models.CrontabSchedule.objects" />
+          <option value="server.tv_shows.models.Episode.DoesNotExist" />
+          <option value="users.models.BannedUser.objects" />
+          <option value="payment.models.PaymentMethod.objects" />
+          <option value="users.models.BannedCustomer.objects" />
+          <option value="orders.models.SourceSite.objects" />
+          <option value="orders.models.SourceSite.DoesNotExist" />
+          <option value="orders.models.FakeOrder.objects" />
+          <option value="orders.models.Order.objects" />
+          <option value="orders.models.Order.DoesNotExist" />
+          <option value="orders.models.FakeOrder.DoesNotExist" />
+          <option value="payment.models.IPN.objects" />
+          <option value="products.models.Product.objects" />
+          <option value="orders.models.OrderItem.objects" />
+          <option value="suppliers.models.SupplierProduct.objects" />
+          <option value="suppliers.models.Supplier.objects" />
+          <option value="source_sites.models.SourceSite.objects" />
+          <option value="users.models.Nickname.objects" />
+          <option value="referrals.models.Referral.objects" />
+          <option value="users.models.Nickname.DoesNotExist" />
+          <option value="tournaments.models.Tournament.objects" />
+          <option value="referrals.models.Referral.DoesNotExist" />
+          <option value="games.models.Game.objects" />
+          <option value="games.models.Game.object" />
+          <option value="users.models.Country.objects" />
+          <option value="users.models.City.objects" />
+          <option value="cities.models.Country.objects" />
+          <option value="cities.models.City.objects" />
+          <option value="suppliers.models.SupplierProduct.DoesNotExist" />
+          <option value="orders.models" />
+          <option value="django_celery_beat.models.IntervalSchedule.objects" />
+          <option value="payment.models.Card.objects" />
+          <option value="payment.models.ExchangeRequest.objects" />
+          <option value="chat.models.Message.objects" />
+          <option value="chat.models.Room.objects" />
+          <option value="django_celery_beat.models.ClockedSchedule.objects" />
+          <option value="subscriptions.models.Subscription.objects" />
+          <option value="tournaments.models.Participant.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
